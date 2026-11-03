@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1010 420" width="1010" height="420" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#5B6862"/>
+    </marker>
+    <marker id="arrowMine" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#007A36"/>
+    </marker>
+  </defs>
+
+  <!-- 배경 -->
+  <rect x="0" y="0" width="1010" height="420" rx="16" fill="#FFFFFF"/>
+  <rect x="0.5" y="0.5" width="1009" height="419" rx="16" fill="none" stroke="#D9E1DD"/>
+
+  <!-- 제목 -->
+  <text x="24" y="38" font-size="20" font-weight="700" fill="#16201B">SPACEH 시스템 구조</text>
+  <text x="24" y="60" font-size="13" fill="#5B6862">문서를 올리고 → 권한에 맞게 찾고 → 답하거나 보고서로 만듭니다</text>
+
+  <!-- 1줄: 팀 흐름 -->
+  <!-- ① 문서 올리기 -->
+  <rect x="24" y="90" width="170" height="76" rx="12" fill="#F1F3F5" stroke="#868E96" stroke-width="1.5"/>
+  <text x="109" y="122" font-size="15" font-weight="700" fill="#343A40" text-anchor="middle">① 문서 올리기</text>
+  <text x="109" y="146" font-size="12" fill="#5B6862" text-anchor="middle">읽기 · 개인정보 가리기</text>
+
+  <!-- ② 저장 -->
+  <rect x="222" y="90" width="170" height="76" rx="12" fill="#FFF4CC" stroke="#8A5A00" stroke-width="1.5"/>
+  <text x="307" y="122" font-size="15" font-weight="700" fill="#4A3200" text-anchor="middle">② 저장</text>
+  <text x="307" y="146" font-size="12" fill="#6B4D00" text-anchor="middle">Chroma · MySQL</text>
+
+  <!-- ③ 권한에 맞게 검색 -->
+  <rect x="420" y="90" width="170" height="76" rx="12" fill="#F1F3F5" stroke="#868E96" stroke-width="1.5"/>
+  <text x="505" y="122" font-size="15" font-weight="700" fill="#343A40" text-anchor="middle">③ 권한에 맞게 검색</text>
+  <text x="505" y="146" font-size="12" fill="#5B6862" text-anchor="middle">볼 수 있는 문서만 먼저 고름</text>
+
+  <!-- ④ 질문 답변 -->
+  <rect x="618" y="90" width="170" height="76" rx="12" fill="#F1F3F5" stroke="#868E96" stroke-width="1.5"/>
+  <text x="703" y="122" font-size="15" font-weight="700" fill="#343A40" text-anchor="middle">④ 질문 답변</text>
+  <text x="703" y="146" font-size="12" fill="#5B6862" text-anchor="middle">문장마다 출처 번호 [n]</text>
+
+  <!-- ★ 원문 보기 -->
+  <rect x="816" y="90" width="170" height="76" rx="12" fill="#E3F4EA" stroke="#007A36" stroke-width="2.5"/>
+  <text x="901" y="122" font-size="15" font-weight="700" fill="#0B3D20" text-anchor="middle">★ 원문 보기</text>
+  <text x="901" y="146" font-size="12" fill="#1E5A35" text-anchor="middle">열 때 권한 다시 확인</text>
+
+  <!-- 1줄 화살표 -->
+  <line x1="194" y1="128" x2="218" y2="128" stroke="#5B6862" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="392" y1="128" x2="416" y2="128" stroke="#5B6862" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="590" y1="128" x2="614" y2="128" stroke="#5B6862" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="788" y1="128" x2="812" y2="128" stroke="#007A36" stroke-width="2" marker-end="url(#arrowMine)"/>
+
+  <!-- 2줄: 내 보고서 흐름 -->
+  <rect x="404" y="214" width="596" height="112" rx="14" fill="none" stroke="#007A36" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <text x="986" y="236" font-size="12" font-weight="700" fill="#007A36" text-anchor="end">★ 제가 만든 보고서 흐름</text>
+
+  <!-- ⑤ 보고서 생성 -->
+  <rect x="420" y="244" width="170" height="70" rx="12" fill="#E3F4EA" stroke="#007A36" stroke-width="2.5"/>
+  <text x="505" y="273" font-size="15" font-weight="700" fill="#0B3D20" text-anchor="middle">★ ⑤ 보고서 생성</text>
+  <text x="505" y="296" font-size="12" fill="#1E5A35" text-anchor="middle">문장마다 근거 확인</text>
+
+  <!-- ⑥ 1페이지 요약 -->
+  <rect x="618" y="244" width="170" height="70" rx="12" fill="#E3F4EA" stroke="#007A36" stroke-width="2.5"/>
+  <text x="703" y="273" font-size="15" font-weight="700" fill="#0B3D20" text-anchor="middle">★ ⑥ 1페이지 요약</text>
+  <text x="703" y="296" font-size="12" fill="#1E5A35" text-anchor="middle">1,500자 이내</text>
+
+  <!-- ★ 파일 내보내기 -->
+  <rect x="816" y="244" width="170" height="70" rx="12" fill="#E3F4EA" stroke="#007A36" stroke-width="2.5"/>
+  <text x="901" y="273" font-size="15" font-weight="700" fill="#0B3D20" text-anchor="middle">★ 파일 내보내기</text>
+  <text x="901" y="296" font-size="12" fill="#1E5A35" text-anchor="middle">Markdown · Word · 워터마크</text>
+
+  <!-- 2줄 화살표 -->
+  <line x1="505" y1="166" x2="505" y2="240" stroke="#007A36" stroke-width="2" marker-end="url(#arrowMine)"/>
+  <line x1="590" y1="279" x2="614" y2="279" stroke="#007A36" stroke-width="2" marker-end="url(#arrowMine)"/>
+  <line x1="788" y1="279" x2="812" y2="279" stroke="#007A36" stroke-width="2" marker-end="url(#arrowMine)"/>
+  <!-- 요약 → 원문 보기 (각주 [원문]) -->
+  <path d="M 760 244 C 790 205, 840 200, 868 170" fill="none" stroke="#007A36" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#arrowMine)"/>
+  <text x="792" y="200" font-size="11" fill="#007A36">각주 [원문]</text>
+
+  <!-- 범례 -->
+  <rect x="24" y="356" width="14" height="14" rx="3" fill="#E3F4EA" stroke="#007A36" stroke-width="2"/>
+  <text x="46" y="368" font-size="13" fill="#16201B">★ 제가 만든 부분</text>
+  <rect x="176" y="356" width="14" height="14" rx="3" fill="#F1F3F5" stroke="#868E96" stroke-width="1.5"/>
+  <text x="198" y="368" font-size="13" fill="#16201B">팀원이 만든 부분</text>
+  <rect x="328" y="356" width="14" height="14" rx="3" fill="#FFF4CC" stroke="#8A5A00" stroke-width="1.5"/>
+  <text x="350" y="368" font-size="13" fill="#16201B">저장소</text>
+  <text x="24" y="398" font-size="12" fill="#5B6862">권한 확인은 검색하기 전에 하기 때문에, 볼 수 없는 문서는 AI에게 전달되지 않습니다.</text>
+</svg>
